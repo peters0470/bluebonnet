@@ -81,6 +81,7 @@ header {
   }
   section {
       padding: 60px;
+      background-color: var(--primary-color);
   }
   .hero {
       background-image: url('../images/furniture.jpg');
@@ -207,7 +208,7 @@ header {
   }
   .section-title {
     font-size: 48px;
-    color: #024e76;
+    color: var(--secondary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -216,7 +217,7 @@ header {
     
   }
   .primary-border {
-      border-color: #fce138;
+      border-color: black;
   }
   .secondary-border {
       border-color: #39a6b2;
@@ -284,24 +285,24 @@ header {
       justify-content: space-around;
   }
   .trainer-1 {
-      background-image: url("../images/trainer-1.jpg");
+      background-image: url("../images/bed.jpg");
       position: relative;
       
   }
   .trainer-2 {
-      background-image: url("../images/trainer-2.jpg");
+      background-image: url("../images/frame.jpg");
       position: relative;
       
   }
   .trainer-3 {
-      background-image: url("../images/trainer-3.jpg");
+      background-image: url("../images/rail.jpg");
       position: relative;
   }
  
   .trainer {
       margin: 20px;
-      background: #024e76;
-      color: #fce138;
+      background: var(--secondary-color);
+      color: var(--tertiary-color);
       flex: 1;
   }
   .trainer:hover .trainer-img::after {
@@ -344,7 +345,7 @@ header {
     content: "";
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(252, 225, 56, 0.3), rgba(2, 78, 118, 1));
+    background: linear-gradient(rgba(56, 141, 252, 0.3), rgb(88, 179, 228));
     position: absolute;
     top: 0;
     left: 0;
@@ -383,7 +384,7 @@ header {
       margin: 15px
   }
   .contact {
-      background: #024e76;
+      background: var(--secondary-color);
   }
   .contact h2 {
       color:#fce138;
